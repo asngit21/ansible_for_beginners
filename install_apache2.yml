@@ -1,6 +1,6 @@
 ---
 - name: install apache2 on ubuntu server
-  hosts: all
+  hosts: 10.0.0.192
   tasks:
   - name: install apache2
     apt: 
