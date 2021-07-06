@@ -6,7 +6,7 @@
     apt: 
       name: apache2
       state: present
-    become: true
+    become: yes
     become_user: akhil
     become_method: sudo
  
