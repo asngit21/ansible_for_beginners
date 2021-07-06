@@ -6,4 +6,10 @@
     apt: 
       name: apache2
       state: present
+    become: yes
+    become_user: akhil
  
+  - name: start apache2
+    service: 
+      name: apache2
+      state: started
