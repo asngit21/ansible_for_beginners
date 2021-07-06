@@ -6,8 +6,9 @@
     apt: 
       name: apache2
       state: present
-    become: yes
+    become: true
     become_user: akhil
+    become_method: sudo
  
   - name: start apache2
     service: 
