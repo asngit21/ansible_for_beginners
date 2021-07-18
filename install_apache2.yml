@@ -4,7 +4,6 @@
   become: yes
   become_user: akhil
   become_method: sudo
-  become_pass: akhil
   tasks:
   - name: install apache2
     apt: 
